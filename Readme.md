@@ -118,7 +118,7 @@ Copyright (c) 2024 Computer Vision Hub
 [![⭐ Star this project](https://img.shields.io/github/stars/your-username/computer-vision-hub?style=social)](https://github.com/your-username/computer-vision-hub)
 [![🍴 Fork & customize](https://img.shields.io/github/forks/your-username/computer-vision-hub?style=social)](https://github.com/your-username/computer-vision-hub/fork)
 
-[⬆ **Back to Top**](#-computer-vision-hub) | [📖 **Documentation**](#api-models) | [🚀 **Get Started**](#instant-setup---no-installation-required)
+[⬆ **Back to Top**](#-computer-vision-hub) | [📖 **Documentation**](https://github.com/Reaishma/IntelliVision-master/blob/main/Readme.md) | [🚀 **Get Started**](#instant-setup---no-installation-required)
 
 </div>
 
