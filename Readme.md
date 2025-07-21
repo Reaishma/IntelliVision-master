@@ -24,7 +24,11 @@
 
 This project is a comprehensive computer vision platform that offers a wide range of tools and techniques for image analysis, object detection, image segmentation, and more. The platform leverages state-of-the-art deep learning models, including MobileNet, COCO-SSD, YOLO, DeepLab, and others, to provide accurate and efficient computer vision capabilities.
 
+---
 
+## 🎯 **What Makes This Revolutionary?**
+
+Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs entirely in your web browser using state-of-the-art TensorFlow.js models. No server required, no data uploads - everything processes locally with lightning-fast performance.
 
 
 
