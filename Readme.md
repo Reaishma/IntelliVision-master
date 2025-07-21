@@ -1,4 +1,4 @@
-<div align="center">
+is<div align="center">
 
 <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="Computer Vision Hub" width="120">
 
@@ -100,6 +100,7 @@ https://reaishma.github.io/IntelliVision-master/)**
 
 *Experience AI-powered computer vision running entirely in your browser*
 
+---
 
 ## 📄 **License**
 
@@ -111,7 +112,15 @@ Copyright (c) 2024 Computer Vision Hub
 ```
 
 ---
+**Built with passion for AI democratization**  
+*Making advanced computer vision accessible to everyone, everywhere*
 
+[![⭐ Star this project](https://img.shields.io/github/stars/your-username/computer-vision-hub?style=social)](https://github.com/your-username/computer-vision-hub)
+[![🍴 Fork & customize](https://img.shields.io/github/forks/your-username/computer-vision-hub?style=social)](https://github.com/your-username/computer-vision-hub/fork)
+
+[⬆ **Back to Top**](#-computer-vision-hub) | [📖 **Documentation**](#api-models) | [🚀 **Get Started**](#instant-setup---no-installation-required)
+
+</div>
 
 ## Target Audience
 
