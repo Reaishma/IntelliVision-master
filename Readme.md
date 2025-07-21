@@ -80,7 +80,16 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 [![Canvas API](https://img.shields.io/badge/Canvas_API-000000?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
 
+---
 
+### 📚 **Resources & Documentation**
+
+- **[TensorFlow.js Guide](https://www.tensorflow.org/js/guide)** - Official ML framework docs
+- **[WebGL Reference](https://webgl2fundamentals.org/)** - GPU acceleration guide  
+- **[MDN Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)** - Browser graphics reference
+- **[Computer Vision Patterns](https://github.com/tensorflow/tfjs-models)** - Additional model examples
+
+---
 
 
 
