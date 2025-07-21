@@ -14,7 +14,7 @@
 
 *Experience the future of computer vision with  AI models*
 
-[🚀 **Live Demo**](#features) • [📚 **API Reference**](#api-models) • [⚡ **Performance**](#performance-benchmarks)
+[🚀 **Live Demo**](https://reaishma.github.io/IntelliVision-master/) • [📚 **API Reference**](#api-models) • [⚡ **Performance**](#performance-benchmarks)
 
 </div>
  
