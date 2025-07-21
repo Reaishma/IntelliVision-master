@@ -89,7 +89,27 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 - **[MDN Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)** - Browser graphics reference
 
 ---
+### **🚀 Performance Optimization**
 
+```javascript
+// Web Workers for heavy computation
+const worker = new Worker('vision-worker.js');
+worker.postMessage({imageData, modelConfig});
+
+// WebAssembly integration
+const wasmModule = await WebAssembly.instantiateStreaming(
+  fetch('opencv.wasm')
+);
+
+// Service Worker for offline functionality
+self.addEventListener('fetch', event => {
+  if (event.request.url.includes('/models/')) {
+    event.respondWith(caches.match(event.request));
+  }
+});
+```
+
+----
 
 ## 🎯 **Live Demo & Examples**
 
