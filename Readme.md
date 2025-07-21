@@ -251,7 +251,16 @@ class CustomVisionProcessor {
   }
 }
 ```
+---
 
+### **Browser Compatibility**
+
+| Browser | Version | Performance | WebGL Support |
+|---------|---------|-------------|---------------|
+| **Chrome** | 88+ | ⭐⭐⭐⭐⭐ | Excellent |
+| **Firefox** | 85+ | ⭐⭐⭐⭐ | Very Good |
+| **Safari** | 14+ | ⭐⭐⭐⭐ | Good |
+| **Edge** | 88+ | ⭐⭐⭐⭐⭐ | Excellent |
 ___
 
 **Built with passion for AI democratization**  
