@@ -132,6 +132,49 @@ Copyright (c) 2024 Computer Vision Hub
 ```
 
 ---
+
+
+### **🌍 Deployment Options**
+
+```bash
+# Static hosting (GitHub Pages, Netlify, Vercel)
+npm run build && npm run deploy
+
+# Local development server
+python -m http.server 8080
+
+# CDN deployment (instant global access)
+# Just upload the HTML file - works everywhere!
+```
+
+---
+
+## 🛠️ **Development & Customization**
+
+### **🔧 Easy Customization Points**
+
+```javascript
+// Add new AI models
+const customModel = await tf.loadLayersModel('path/to/your/model.json');
+
+// Customize UI colors
+:root {
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --accent-color: #28a745;
+  --background: #f8f9fa;
+}
+
+// Add new computer vision features
+class CustomVisionProcessor {
+  async processImage(imageData) {
+    // Your custom algorithm here
+    return results;
+  }
+}
+```
+
+___
+
 **Built with passion for AI democratization**  
 *Making advanced computer vision accessible to everyone, everywhere*
 
