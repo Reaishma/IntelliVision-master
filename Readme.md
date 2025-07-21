@@ -67,6 +67,19 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 | **DeepLab v3** | Pascal VOC | 21 | mIoU 89% | 15+ | 42MB |
 
 
+## 🎨 **Gallery & Examples**
+
+<div align="center">
+
+### **Before & After Transformations**
+
+| Original | Classification | Detection | Style Transfer |
+|----------|---------------|-----------|----------------|
+| ![Original](docs/images/sample_input.jpg) | ![Classified](docs/images/classification_result.jpg) | ![Detected](docs/images/detection_result.jpg) | ![Styled](docs/images/style_result.jpg) |
+
+</div>
+
+---
 
 
 
