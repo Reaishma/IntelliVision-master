@@ -82,6 +82,75 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 
 ---
 
+
+## ⚙️ **Advanced Configuration**
+
+### **TensorFlow.js Backend Selection**
+
+```javascript
+// WebGL Backend (Recommended)
+await tf.setBackend('webgl');
+console.log(`Using backend: ${tf.getBackend()}`);
+
+// CPU Fallback
+await tf.setBackend('cpu');
+
+// Performance monitoring
+tf.env().set('DEBUG', true);
+```
+
+### **Model Loading Optimization**
+
+```javascript
+// Preload models for instant access
+const modelPromises = Promise.all([
+  mobilenet.load(),
+  cocoSsd.load(),
+  deeplab.load()
+]);
+
+// Progressive loading with status updates
+const models = await modelPromises;
+console.log('All AI models loaded successfully!');
+```
+
+### **Memory Management**
+
+```javascript
+// Tensor disposal for memory efficiency
+tf.tidy(() => {
+  const prediction = model.predict(inputTensor);
+  return prediction.dataSync();
+});
+
+// Monitor memory usage
+console.log(`Memory: ${tf.memory().numBytes} bytes`);
+```
+
+---
+
+## 📊 **Technical Specifications**
+
+### **Supported Formats**
+
+| Category | Formats |
+|----------|---------|
+| **Input Images** | PNG, JPG, JPEG, BMP, TIFF |
+| **Output Formats** | PNG, JPG (downloadable) |
+| **Max File Size** | 200MB per image |
+| **Recommended Size** | 1024x1024 pixels |
+
+___
+
+### **System Requirements**
+
+- **Memory**: 4GB RAM minimum, 8GB recommended
+- **Storage**: 2GB free space for models
+- **CPU**: Modern multi-core processor
+- **GPU**: Optional (CUDA support for faster processing)
+
+---
+
 ### 📚 **Resources & Documentation**
 
 - **[TensorFlow.js Guide](https://www.tensorflow.org/js/guide)** - Official ML framework docs
