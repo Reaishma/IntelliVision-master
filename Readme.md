@@ -66,31 +66,36 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 | **COCO-SSD** | MS COCO | 80 | mAP 22% | 30+ | 27MB |
 | **DeepLab v3** | Pascal VOC | 21 | mIoU 89% | 15+ | 42MB |
 
-
-## 🎨 **Gallery & Examples**
+## 🏆 **Technology Stack**
 
 <div align="center">
 
-### **Before & After Transformations**
+### **Core Technologies**
 
-| Original | Classification | Detection | Style Transfer |
-|----------|---------------|-----------|----------------|
-| ![Original](docs/images/sample_input.jpg) | ![Classified](docs/images/classification_result.jpg) | ![Detected](docs/images/detection_result.jpg) | ![Styled](docs/images/style_result.jpg) |
+[![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://tensorflow.org/js)
+[![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)](https://webgl.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+[![Canvas API](https://img.shields.io/badge/Canvas_API-000000?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
-</div>
+
+
+
+
+
+
+
+## 📄 **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License - Feel free to use, modify, and distribute
+Copyright (c) 2024 Computer Vision Hub
+```
 
 ---
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Target Audience
