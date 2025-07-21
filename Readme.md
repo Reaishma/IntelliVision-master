@@ -1,4 +1,4 @@
-is<div align="center">
+<div align="center">
 
 <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="Computer Vision Hub" width="120">
 
