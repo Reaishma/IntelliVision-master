@@ -87,12 +87,18 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 - **[TensorFlow.js Guide](https://www.tensorflow.org/js/guide)** - Official ML framework docs
 - **[WebGL Reference](https://webgl2fundamentals.org/)** - GPU acceleration guide  
 - **[MDN Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)** - Browser graphics reference
-- **[Computer Vision Patterns](https://github.com/tensorflow/tfjs-models)** - Additional model examples
 
 ---
 
 
+## 🎯 **Live Demo & Examples**
 
+<div align="center">
+
+**🚀 [Try the Live Demo](
+https://reaishma.github.io/IntelliVision-master/)** 
+
+*Experience AI-powered computer vision running entirely in your browser*
 
 
 ## 📄 **License**
