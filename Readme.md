@@ -1,9 +1,32 @@
-# IntelliVision master 
+<div align="center">
+
+<img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="Computer Vision Hub" width="120">
+
+# 🔮 Computer Vision Hub
+
+### *Advanced AI-Powered Image Analysis & Processing Platform*
+
+[![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/js)
+[![OpenCV.js](https://img.shields.io/badge/OpenCV.js-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+
+*Experience the future of computer vision with browser-based AI models*
+
+[🚀 **Live Demo**](#features) • [📚 **API Reference**](#api-models) • [⚡ **Performance**](#performance-benchmarks)
+
+</div>
+ 
 
 
 ## Overview
 
 This project is a comprehensive computer vision platform that offers a wide range of tools and techniques for image analysis, object detection, image segmentation, and more. The platform leverages state-of-the-art deep learning models, including MobileNet, COCO-SSD, YOLO, DeepLab, and others, to provide accurate and efficient computer vision capabilities.
+
+
+
+
 
 ## Features 
 
