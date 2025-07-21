@@ -22,7 +22,7 @@
 
 ## Overview
 
-This project is a comprehensive computer vision platform that offers a wide range of tools and techniques for image analysis, object detection, image segmentation, and more. The platform leverages state-of-the-art deep learning models, including MobileNet, COCO-SSD, YOLO, DeepLab, and others, to provide accurate and efficient computer vision capabilities.
+This project is a comprehensive computer vision platform application built with Streamlit that provides comprehensive computer vision capabilities that offers a wide range of tools and techniques for image analysis, object detection, image segmentation, and more. The platform leverages state-of-the-art deep learning models, including MobileNet, COCO-SSD, YOLO, DeepLab, and others, to provide accurate and efficient computer vision capabilities.
 
 ---
 
@@ -55,6 +55,57 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 2. *CNN Layer Visualization*: Visualizing feature maps and convolutional layers.
 3. *Attention Visualization*: Showing where the model focuses.
 4. *Image Analysis*: Providing comprehensive analysis, including image dimensions, color depth, and more.
+
+## System Architecture
+
+### Frontend Architecture
+- **Framework**: Streamlit web application framework
+- **Layout**: Wide layout with expandable sidebar for controls
+- **Caching Strategy**: Uses Streamlit's `@st.cache_resource` and `@st.cache_data` decorators for model and utility caching
+- **Session Management**: Streamlit session state for managing uploaded images and model loading status
+
+### Backend Architecture
+- **Core Framework**: Python-based with modular utility classes
+- **Model Management**: Centralized ModelManager class for loading and managing ML models
+- **Image Processing**: Dedicated ImageProcessor class for applying various filters and transformations
+- **Visualization**: Separate Visualizer class for rendering computer vision results
+
+### Modular Design
+The application follows a clean separation of concerns with three main utility modules:
+- `utils/model_utils.py`: ML model loading and inference
+- `utils/image_processing.py`: Image filtering and processing operations  
+- `utils/visualization.py`: Result visualization and rendering
+
+## Key Components
+
+### ModelManager (`utils/model_utils.py`)
+- **Purpose**: Manages loading and inference of multiple ML models
+- **Models Supported**: 
+  - MobileNetV2 for image classification (ImageNet pretrained)
+  - Placeholder architecture for object detection and segmentation models
+- **Preprocessing**: Handles image preprocessing for different model requirements
+- **Output**: Structured prediction results with confidence scores
+
+### ImageProcessor (`utils/image_processing.py`)
+- **Purpose**: Applies various image filters and enhancements
+- **Supported Filters**: Blur, Gaussian blur, sharpen, edge detection, emboss, brightness, contrast, saturation
+- **Architecture**: Filter registry pattern with modular filter functions
+- **Error Handling**: Graceful degradation when filters fail
+
+### Visualizer (`utils/visualization.py`)
+- **Purpose**: Renders computer vision results with visual overlays
+- **Capabilities**: Bounding box drawing, label rendering, confidence score display
+- **Color Management**: Predefined color palette for consistent visualization
+- **Format Handling**: Converts between PIL and OpenCV image formats
+
+## Data Flow
+
+1. **Image Input**: User uploads image through Streamlit file uploader
+2. **Session Storage**: Image stored in Streamlit session state
+3. **Model Inference**: Selected models process the image through ModelManager
+4. **Result Processing**: Raw predictions converted to structured results
+5. **Visualization**: Results rendered with bounding boxes/labels via Visualizer
+6. **Display**: Processed images and results displayed in Streamlit interface
 
 ## 🧠 **AI Model Specifications**
 
@@ -200,6 +251,11 @@ https://reaishma.github.io/IntelliVision-master/)**
 *Experience AI-powered computer vision running entirely in your browser*
 
 ---
+## Developer 
+
+Reaishma N 
+
+___
 
 ## 📄 **License**
 
@@ -211,6 +267,43 @@ Copyright (c) 2024 Computer Vision Hub
 ```
 
 ---
+
+## External Dependencies
+
+### Core Libraries
+- **Streamlit**: Web application framework
+- **TensorFlow/Keras**: Deep learning framework and pretrained models
+- **OpenCV**: Computer vision and image processing
+- **PIL (Pillow)**: Image manipulation and format handling
+- **NumPy**: Numerical computations and array operations
+- **Matplotlib**: Plotting and visualization utilities
+
+### Pretrained Models
+- **MobileNetV2**: ImageNet classification (loaded via Keras Applications)
+- **TensorFlow Hub**: Potential source for additional pretrained models
+
+### Web Assets
+- **TensorFlow.js Models**: Browser-based inference capabilities (referenced in HTML file)
+- **CDN Dependencies**: External JavaScript libraries for web interface enhancement
+
+___
+
+## Deployment Strategy
+
+### Current Architecture
+- **Platform**: Designed for Streamlit deployment
+- **Caching**: Leverages Streamlit's built-in caching for model persistence
+- **Resource Management**: Models loaded once and cached across sessions
+
+### Scalability Considerations
+- **Model Loading**: Heavy models cached to avoid repeated loading
+- **Memory Management**: Session state used efficiently for user data
+- **Error Handling**: Graceful degradation when models fail to load
+
+### Deployment Options
+- **Streamlit Cloud**: Direct deployment with automatic dependency management
+- **Docker**: Containerized deployment for custom environments
+- **Local Development**: Direct Python execution for development and testing
 
 
 ### **🌍 Deployment Options**
@@ -263,8 +356,20 @@ class CustomVisionProcessor {
 | **Edge** | 88+ | ⭐⭐⭐⭐⭐ | Excellent |
 ___
 
+## Technical Notes
+
+### Model Architecture Decisions
+- **MobileNetV2 Choice**: Balanced accuracy vs. speed tradeoff suitable for web deployment
+- **Modular Design**: Separate model classes allow easy addition of new models
+- **Preprocessing Pipeline**: Standardized image preprocessing for consistent model input
+
+### Performance Optimizations
+- **Caching Strategy**: Critical for model loading and utility initialization
+- **Lazy Loading**: Models loaded only when accessed
+- **Memory Efficiency**: Session state used judiciously to avoid memory bloat
 **Built with passion for AI democratization**  
 *Making advanced computer vision accessible to everyone, everywhere*
+___
 
 [![⭐ Star this project](https://img.shields.io/github/stars/your-username/computer-vision-hub?style=social)](https://github.com/your-username/computer-vision-hub)
 [![🍴 Fork & customize](https://img.shields.io/github/forks/your-username/computer-vision-hub?style=social)](https://github.com/your-username/computer-vision-hub/fork)
