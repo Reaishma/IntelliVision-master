@@ -18,7 +18,14 @@
 
 </div>
  
+# 🎯 **Live Demo & Examples**
 
+<div align="center">
+
+**🚀 Try the Live Demo
+https://reaishma.github.io/IntelliVision-master/** 
+
+*Experience AI-powered computer vision running entirely in your browser*
 
 ## Overview
 
@@ -238,17 +245,6 @@ self.addEventListener('fetch', event => {
 | **Classification** | Instant | 50-100ms | ~50MB |
 | **Detection** | Instant | 100-200ms | ~100MB |
 | **Segmentation** | Instant | 500-1000ms | ~150MB |
-
-___
-
-## 🎯 **Live Demo & Examples**
-
-<div align="center">
-
-**🚀 [Try the Live Demo](
-https://reaishma.github.io/IntelliVision-master/)** 
-
-*Experience AI-powered computer vision running entirely in your browser*
 
 ---
 ## Developer 
