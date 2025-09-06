@@ -77,6 +77,9 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 1. *Image Statistics*: Providing detailed image properties and statistics.
 2. *CNN Layer Visualization*: Visualizing feature maps and convolutional layers.
 3. *Attention Visualization*: Showing where the model focuses.
+
+![features](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2011_01_11%20AM%20GMT%2B05_30.png)
+
 4. *Image Analysis*: Providing comprehensive analysis, including image dimensions, color depth, and more.
 
 ## System Architecture
