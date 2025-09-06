@@ -126,6 +126,8 @@ The application follows a clean separation of concerns with three main utility m
 
 ## Data Flow
 
+![depth analysis](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2011_02_06%20AM%20GMT%2B05_30.png)
+
 1. **Image Input**: User uploads image through Streamlit file uploader
 2. **Session Storage**: Image stored in Streamlit session state
 3. **Model Inference**: Selected models process the image through ModelManager
