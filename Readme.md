@@ -33,6 +33,8 @@ This project is a comprehensive computer vision platform application built with 
 
 ---
 
+![Overview](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2010_50_01%20AM%20GMT%2B05_30.png)
+
 ## 🎯 **What Makes This Revolutionary?**
 
 Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs entirely in your web browser and streamlit version  using state-of-the-art TensorFlow.js models everything processes  with lightning-fast performance.
