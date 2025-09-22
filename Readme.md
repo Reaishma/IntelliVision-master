@@ -26,7 +26,8 @@
 https://reaishma.github.io/IntelliVision-master/** 
 
 <div align="center">
-**Experience AI-powered computer vision running entirely in your browser on streamlit https://intellivision-master-actmkjaab2j5xj8hu8295t.streamlit.app/**
+
+** Experience AI-powered computer vision running entirely in your browser on streamlit https://intellivision-master-actmkjaab2j5xj8hu8295t.streamlit.app/ **
 
 ## Overview
 
