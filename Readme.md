@@ -14,7 +14,7 @@
 
 *Experience the future of computer vision with  AI models*
 
-[🚀 **Live Demo**](https://reaishma.github.io/IntelliVision-master/) • [📚 **API Reference**]• [⚡ **Performance**]
+[🚀 **View on Streamlit**](https://intellivision-master-actmkjaab2j5xj8hu8295t.streamlit.app/). [📚 **API Reference**]• [⚡ **Performance**]
 
 </div>
  
@@ -421,5 +421,3 @@ ___
 
 **Overall,this project offers a powerful platform for computer vision tasks, making it an excellent resource for developers, researchers, and enthusiasts.**
 
-
-https://reaishma.github.io/IntelliVision-master/
