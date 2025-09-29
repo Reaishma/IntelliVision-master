@@ -18,11 +18,11 @@
 
 </div>
  
-# 🎯 **Live Demo & Examples**
+# 🎯 **Access the project**
 
 <div align="center">
 
-**🚀 Try the Live Demo
+**🚀 View  the Web Interface
 https://reaishma.github.io/IntelliVision-master/** 
 
 <div align="center">
