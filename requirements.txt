@@ -5,5 +5,7 @@ opencv-python-headless
 matplotlib
 scikit-learn
 scikit-image
+tensorflow 
+keras
 
 
