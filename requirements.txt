@@ -5,5 +5,5 @@ opencv-python-headless
 matplotlib
 scikit-learn
 scikit-image
-image_classification
+
 
