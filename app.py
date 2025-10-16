@@ -3,15 +3,14 @@ import numpy as np
 from PIL import Image
 import cv2
 import os
-
-from cv_modules import image_classification
-from cv_modules import object_detection
-from cv_modules import image_segmentation
-from cv_modules import feature_detection
-from cv_modules import style_transfer
-from cv_modules import image_enhancement
-from cv_modules import edge_detection
-from cv_modules.image_utils import load_image, save_image, display_images_side_by_side
+import image_classification
+import object_detection
+import image_segmentation
+import feature_detection
+import style_transfer
+import image_enhancement
+import edge_detection
+from image_utils import load_image, save_image, display_images_side_by_side
 
 def main():
     st.set_page_config(
