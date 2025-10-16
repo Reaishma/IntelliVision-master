@@ -35,7 +35,6 @@ This project is a comprehensive computer vision platform application built with 
 
 ---
 
-![Overview](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2010_50_01%20AM%20GMT%2B05_30.png)
 
 ## 🎯 **What Makes This Revolutionary?**
 
@@ -48,12 +47,11 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 ## Models and Techniques
 1. *Image Classification*: Using MobileNet for classifying images into different categories.
 
-![Classification](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2010_56_28%20AM%20GMT%2B05_30.png)
 
 2. *Object Detection*: Utilizing COCO-SSD and YOLO for detecting objects in images.
 
 
-![object detection](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2010_52_57%20AM%20GMT%2B05_30.png)
+
 
 3. *Image Segmentation*: Employing DeepLab for pixel-level image understanding.
 4. *CNN Architecture*: Visualizing convolutional neural network layers.
@@ -61,7 +59,7 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 6. *Attention Mechanisms*: Visualizing where the model focuses.
 7. *Variational Autoencoder (VAE)*: Encoding and decoding image representations.
 
-![VAE](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2010_59_24%20AM%20GMT%2B05_30.png)
+
 
 8. *Generative Adversarial Network (GAN)*: Generating synthetic images.
 9. *Feature Detection*: Extracting features using SIFT, SURF, and HOG.
@@ -69,8 +67,6 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 
 ## Image Processing
 
-
-![Yolo](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2010_52_11%20AM%20GMT%2B05_30.png)
 
 1. *Image Enhancement*: Blurring, sharpening, edge detection, and more.
 2. *Image Filtering*: Applying filters like vintage, grayscale, and more.
@@ -80,7 +76,6 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 2. *CNN Layer Visualization*: Visualizing feature maps and convolutional layers.
 3. *Attention Visualization*: Showing where the model focuses.
 
-![features](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2011_01_11%20AM%20GMT%2B05_30.png)
 
 4. *Image Analysis*: Providing comprehensive analysis, including image dimensions, color depth, and more.
 
@@ -128,7 +123,6 @@ The application follows a clean separation of concerns with three main utility m
 
 ## Data Flow
 
-![depth analysis](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Sep%206%2C%202025%2011_02_06%20AM%20GMT%2B05_30.png)
 
 1. **Image Input**: User uploads image through Streamlit file uploader
 2. **Session Storage**: Image stored in Streamlit session state
