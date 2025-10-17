@@ -124,6 +124,7 @@ The application follows a clean separation of concerns with three main utility m
 - **Output**: Structured prediction results with confidence scores
 
 ### ImageProcessor (`utils/image_processing.py`)
+![Custom enhancement](https://github.com/Reaishma/IntelliVision-master/blob/main/Custom%20enhancement.png)
 - **Purpose**: Applies various image filters and enhancements
 - **Supported Filters**: Blur, Gaussian blur, sharpen, edge detection, emboss, brightness, contrast, saturation
 - **Architecture**: Filter registry pattern with modular filter functions
