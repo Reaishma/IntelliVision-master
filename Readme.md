@@ -82,19 +82,19 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 ## Image Processing
 
 ![image enhancement](https://github.com/Reaishma/IntelliVision-master/blob/main/Image%20enhancement.png)
-1. *Image Enhancement*: Blurring, sharpening, edge detection, and more.
-2. *Image Filtering*: Applying filters like vintage, grayscale, and more.
+1. **Image Enhancement**: Blurring, sharpening, edge detection, and more.
+2. **Image Filtering**: Applying filters like vintage, grayscale, and more.
 
 ## Analysis and Visualization
 
 ![custom style transfer](https://github.com/Reaishma/IntelliVision-master/blob/main/Custom%20style%20transfer.png)
 
-1. *Image Statistics*: Providing detailed image properties and statistics.
-2. *CNN Layer Visualization*: Visualizing feature maps and convolutional layers.
-3. *Attention Visualization*: Showing where the model focuses.
+1. **Image Statistics**: Providing detailed image properties and statistics.
+2. **CNN Layer Visualization**: Visualizing feature maps and convolutional layers.
+3. **Attention Visualization**: Showing where the model focuses.
 
 
-4. *Image Analysis*: Providing comprehensive analysis, including image dimensions, color depth, and more.
+4. **Image Analysis**: Providing comprehensive analysis, including image dimensions, color depth, and more.
 
 ## System Architecture
 
