@@ -29,6 +29,8 @@ https://reaishma.github.io/IntelliVision-master/**
 
 **Experience AI-powered computer vision running entirely in your browser on streamlit https://intellivision-master-jvcdkjhexppvam3zrpwbts.streamlit.app/**
 
+![computer vision](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Oct%2016%2C%202025%2010_50_57%20AM%20GMT%2B05_30.png)
+
 ## Overview
 
 This project is a comprehensive computer vision platform application built with Streamlit that provides comprehensive computer vision capabilities that offers a wide range of tools and techniques for image analysis, object detection, image segmentation, and more. The platform leverages state-of-the-art deep learning models, including MobileNet, COCO-SSD, YOLO, DeepLab, and others, to provide accurate and efficient computer vision capabilities.
