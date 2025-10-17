@@ -4,6 +4,8 @@
 
 # 🔮 Computer Vision Hub
 
+![computer vision](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Oct%2016%2C%202025%2010_50_57%20AM%20GMT%2B05_30.png)
+
 ### *Advanced AI-Powered Image Analysis & Processing Platform*
 
 [![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/js)
@@ -29,7 +31,7 @@ https://reaishma.github.io/IntelliVision-master/**
 
 **Experience AI-powered computer vision running entirely in your browser on streamlit https://intellivision-master-jvcdkjhexppvam3zrpwbts.streamlit.app/**
 
-![computer vision](https://github.com/Reaishma/IntelliVision-master/blob/main/chrome_screenshot_Oct%2016%2C%202025%2010_50_57%20AM%20GMT%2B05_30.png)
+
 
 ## Overview
 
