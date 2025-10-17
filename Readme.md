@@ -60,11 +60,12 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 
 ![segmentation](https://github.com/Reaishma/IntelliVision-master/blob/main/Image%20segmentation.png)
 
-4. *CNN Architecture*: Visualizing convolutional neural network layers.
-5. *Transfer Learning*: Adapting pre-trained models for new tasks.
+4. **CNN Architecture**: Visualizing convolutional neural network layers.
+5. **Transfer Learning**: Adapting pre-trained models for new tasks.
+![Style transfer](https://github.com/Reaishma/IntelliVision-master/blob/main/Style%20transfer.png)
+
 6. *Attention Mechanisms*: Visualizing where the model focuses.
 7. *Variational Autoencoder (VAE)*: Encoding and decoding image representations.
-
 
 
 8. *Generative Adversarial Network (GAN)*: Generating synthetic images.
