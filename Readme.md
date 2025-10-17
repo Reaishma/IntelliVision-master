@@ -49,6 +49,7 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 ## Models and Techniques
 1. *Image Classification*: Using MobileNet for classifying images into different categories.
 
+![Classification](https://github.com/Reaishma/IntelliVision-master/blob/main/Image%20classification.png)
 
 2. *Object Detection*: Utilizing COCO-SSD and YOLO for detecting objects in images.
 
