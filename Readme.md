@@ -111,6 +111,8 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 - **Visualization**: Separate Visualizer class for rendering computer vision results
 
 ### Modular Design
+
+![Edge detection](https://github.com/Reaishma/IntelliVision-master/blob/main/Edge%20detection.png)
 The application follows a clean separation of concerns with three main utility modules:
 - `utils/model_utils.py`: ML model loading and inference
 - `utils/image_processing.py`: Image filtering and processing operations  
