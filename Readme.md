@@ -53,6 +53,7 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 
 2. *Object Detection*: Utilizing COCO-SSD and YOLO for detecting objects in images.
 
+![feature detection](https://github.com/Reaishma/IntelliVision-master/blob/main/Feature%20detection.png)
 
 
 
