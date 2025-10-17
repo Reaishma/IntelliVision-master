@@ -64,13 +64,14 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 5. **Transfer Learning**: Adapting pre-trained models for new tasks.
 ![Style transfer](https://github.com/Reaishma/IntelliVision-master/blob/main/Style%20transfer.png)
 
-6. *Attention Mechanisms*: Visualizing where the model focuses.
-7. *Variational Autoencoder (VAE)*: Encoding and decoding image representations.
+6. **Attention Mechanisms**: Visualizing where the model focuses.
+7. **Variational Autoencoder (VAE)**: Encoding and decoding image representations.
 
 
-8. *Generative Adversarial Network (GAN)*: Generating synthetic images.
-9. *Feature Detection*: Extracting features using SIFT, SURF, and HOG.
-10. *Neural Style Transfer*: Transforming images with artistic neural networks.
+8. **Generative Adversarial Network (GAN)**: Generating synthetic images.
+9. **Feature Detection**: Extracting features using SIFT, SURF, and HOG.
+10. **Neural Style Transfer**: Transforming images with artistic neural networks.
+![neural style transfer](https://github.com/Reaishma/IntelliVision-master/blob/main/Neural%20style%20transfer.png)
 
 ## Image Processing
 
