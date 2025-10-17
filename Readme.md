@@ -120,6 +120,8 @@ The application follows a clean separation of concerns with three main utility m
 
 ## Key Components
 
+![Edge detection2](https://github.com/Reaishma/IntelliVision-master/blob/main/Edge%20detection%202.png)
+
 ### ModelManager (`utils/model_utils.py`)
 - **Purpose**: Manages loading and inference of multiple ML models
 - **Models Supported**: 
