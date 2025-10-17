@@ -81,7 +81,7 @@ Computer Vision Hub is a cutting-edge **browser-based AI platform** that runs en
 
 ## Image Processing
 
-
+![image enhancement](https://github.com/Reaishma/IntelliVision-master/blob/main/Image%20enhancement.png)
 1. *Image Enhancement*: Blurring, sharpening, edge detection, and more.
 2. *Image Filtering*: Applying filters like vintage, grayscale, and more.
 
